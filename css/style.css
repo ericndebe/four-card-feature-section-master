@@ -1,0 +1,231 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+@media (min-width: 320px) {
+  html {
+    font-size: 50.5%;
+  }
+}
+
+@media (min-width: 375px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 60.5%;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #a3a5ae;
+}
+
+.header {
+  margin: 3rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__title {
+  display: block;
+  font-weight: 200;
+  color: #4c4e61;
+  white-space: nowrap;
+}
+
+.header__title--bold {
+  display: block;
+  font-weight: 600;
+}
+
+.header__paragraph {
+  text-align: center;
+  width: 40%;
+  margin: 2rem 0;
+}
+
+.main {
+  padding: 2rem 5rem;
+}
+
+.main .container {
+  max-width: 1440px;
+  margin: 5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media (min-width: 1440px) {
+  .main .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 900px) {
+  .main .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.main .col {
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .main .col {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main .col {
+    width: 30%;
+  }
+}
+
+@media (min-width: 900px) {
+  .main .col {
+    width: 30%;
+  }
+}
+
+.main .col__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  -webkit-box-shadow: 4px 12px 20px 1px #e2e2e2;
+          box-shadow: 4px 12px 20px 1px #e2e2e2;
+  border-radius: 5px;
+  padding: 3.5rem;
+  margin-bottom: 5rem;
+}
+
+.main .col__item--title {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-weight: 600;
+  margin-bottom: .5rem;
+  color: #4c4e61;
+}
+
+.main .col__item--copy {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.main .col__item--icon {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.main .col__item--green {
+  border-top: 5px solid #45d3d3;
+}
+
+.main .col__item--red {
+  border-top: 5px solid #ea5353;
+}
+
+.main .col__item--yellow {
+  border-top: 5px solid #fcaf4a;
+}
+
+.main .col__item--blue {
+  border-top: 5px solid #549ef2;
+}
+/*# sourceMappingURL=style.css.map */
